@@ -28,7 +28,7 @@ jobs:
         node-version: 12  
 
     # install yarn
-    - name: insatll yarn
+    - name: install yarn
       uses: borales/actions-yarn@v2.0.0
       with:
         cmd: install # run install command  
